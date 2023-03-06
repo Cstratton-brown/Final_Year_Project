@@ -6,3 +6,4 @@ The app has to be able to diagnose an illness based upon user inputted symptoms 
 
 Packages/API used:
 GoogleMapsApi
+Darnton.Blazor.DeviceInterop
