@@ -13,4 +13,7 @@
     <SourceRoot Include="C:\Users\Charles\.nuget\packages\" />
     <SourceRoot Include="C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages\" />
   </ItemGroup>
+  <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Import Project="$(NuGetPackageRoot)darnton.blazor.deviceinterop\0.1.2\buildTransitive\Darnton.Blazor.DeviceInterop.props" Condition="Exists('$(NuGetPackageRoot)darnton.blazor.deviceinterop\0.1.2\buildTransitive\Darnton.Blazor.DeviceInterop.props')" />
+  </ImportGroup>
 </Project>

@@ -7,7 +7,20 @@
     <base href="/" />
     <link href="css/app.css" rel="stylesheet" />
     <link href="manifest.json" rel="manifest" />
-    
+    <script src="_framework/blazor.server.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAzMARz7VvuaLFicMMCjnY7jRMUVTrCZK4&v=3"></script>
+    <script>
+        function initialize() {
+            var latlng = new google.maps.LatLng(51.39758, 0.54202);
+            var options = {
+                zoom: 14, center: latlng,
+                mapTypeId: google.maps.MapTypeId.ROADMAP
+            };
+            var map = new google.maps.Map(document.getElementById
+                ("map"), options);
+        }
+    </script>
+
     <!-- If you add any scoped CSS files, uncomment the following to load them
     <link href="FinalYearProject.Client.styles.css" rel="stylesheet" /> -->
 </head>
