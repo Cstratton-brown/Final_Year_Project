@@ -47,6 +47,10 @@
             "Darnton.Blazor.DeviceInterop": {
               "target": "Package",
               "version": "[0.1.2, )"
+            },
+            "leaflet": {
+              "target": "Package",
+              "version": "[0.7.3, )"
             }
           },
           "imports": [

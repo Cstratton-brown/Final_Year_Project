@@ -7,6 +7,8 @@
   "linkerEnabled": false,
   "resources": {
     "assembly": {
+      "Darnton.Blazor.DeviceInterop.dll": "sha256-DZ\/jfCwm1TFrBcBrcJJkyABDTDVMz8ErYETwpSRSIas=",
+      "Units.dll": "sha256-lZBlkdG3twAkNSrZlgYv9rn05s0UkaOk5TNWzqP7zCA=",
       "GoogleMapsApi.dll": "sha256-8+Yf3kTFAJjtqqh9aq9kPYvkvU+kZP538LEYrEL+vjY=",
       "Microsoft.AspNetCore.Authorization.dll": "sha256-z4GZC8zBP0+3qTsoIBdCEOvwWaWDTpt8U1vr1aLEkI4=",
       "Microsoft.AspNetCore.Components.dll": "sha256-2+8AH28qnJdxAcSZ0HYdiGuZzHwXNI1gFtZz71zMhDc=",
@@ -201,15 +203,15 @@
       "mscorlib.dll": "sha256-T52Qf1cS\/UysEoWOoE2ptEJEXfGpanQX5KNLyDiLv1E=",
       "netstandard.dll": "sha256-p32h5P3QmHJ\/FGoeE6m7f5g\/8ng2PSPGZktHyMadvIs=",
       "System.Private.CoreLib.dll": "sha256-6MwQcyKbqBsoZYOcD9fQJ4iKcn1qMmWRWVEkU2LLCb0=",
-      "FinalYearProject.Shared.dll": "sha256-jDVn5aTzw+ZRKrcnIbplDa0jmosh0KE8\/JQhx0wRG08=",
-      "FinalYearProject.Client.dll": "sha256-3ZDc+Aw8xkjshShdcFltp8wVrH7gl8nouQkcVxuT+d8="
+      "FinalYearProject.Shared.dll": "sha256-l6xQaV7VrsR\/NtcSm5os8N2W2i9awkeszRiD\/cmyjIk=",
+      "FinalYearProject.Client.dll": "sha256-CzRPTXJuTj0rwn\/k1B\/aJRrtDYI37MxMzM3FkQHSwL0="
     },
     "extensions": null,
     "lazyAssembly": null,
     "libraryInitializers": null,
     "pdb": {
-      "FinalYearProject.Shared.pdb": "sha256-9KRImsg5zwIuEeRoJFujgFhw2nFyE1mKCGxQtebm868=",
-      "FinalYearProject.Client.pdb": "sha256-gUWGupGUgltu5YqtYElBRieLjAjQ8WMDK3cOp4MKXpg="
+      "FinalYearProject.Shared.pdb": "sha256-SIRdETgdhiEzSOYKgELaVvDGvTtm\/nEiRIdRmGyBM5M=",
+      "FinalYearProject.Client.pdb": "sha256-pZ7ZkOT3ipLJJqWB1EmYkTN7+sOfGLSZJfozTlmHvZQ="
     },
     "runtime": {
       "dotnet.7.0.2.e8gxhnrq4n.js": "sha256-4mh03qTse0uNR+dQ6ydExm4jJXph0RE8zGNCtF0jiNA=",

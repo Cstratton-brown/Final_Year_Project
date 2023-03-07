@@ -1,5 +1,12 @@
+C:\Users\Charles\source\repos\Cstratton-brown\Final_Year_Project\FinalYearProject\Client\obj\Debug\net7.0\FinalYearProject.Client.csproj.AssemblyReference.cache
+C:\Users\Charles\source\repos\Cstratton-brown\Final_Year_Project\FinalYearProject\Client\obj\Debug\net7.0\FinalYearProject.Client.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Charles\source\repos\Cstratton-brown\Final_Year_Project\FinalYearProject\Client\obj\Debug\net7.0\FinalYearProject.Client.AssemblyInfoInputs.cache
+C:\Users\Charles\source\repos\Cstratton-brown\Final_Year_Project\FinalYearProject\Client\obj\Debug\net7.0\FinalYearProject.Client.AssemblyInfo.cs
+C:\Users\Charles\source\repos\Cstratton-brown\Final_Year_Project\FinalYearProject\Client\obj\Debug\net7.0\FinalYearProject.Client.csproj.CoreCompileInputs.cache
+C:\Users\Charles\source\repos\Cstratton-brown\Final_Year_Project\FinalYearProject\Client\obj\Debug\net7.0\FinalYearProject.Client.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\Charles\source\repos\Cstratton-brown\Final_Year_Project\FinalYearProject\Client\bin\Debug\net7.0\wwwroot\_framework\blazor.boot.json
 C:\Users\Charles\source\repos\Cstratton-brown\Final_Year_Project\FinalYearProject\Client\bin\Debug\net7.0\wwwroot\_framework\blazor.webassembly.js
+C:\Users\Charles\source\repos\Cstratton-brown\Final_Year_Project\FinalYearProject\Client\bin\Debug\net7.0\wwwroot\_framework\Darnton.Blazor.DeviceInterop.dll
 C:\Users\Charles\source\repos\Cstratton-brown\Final_Year_Project\FinalYearProject\Client\bin\Debug\net7.0\wwwroot\_framework\dotnet.7.0.2.e8gxhnrq4n.js
 C:\Users\Charles\source\repos\Cstratton-brown\Final_Year_Project\FinalYearProject\Client\bin\Debug\net7.0\wwwroot\_framework\dotnet.timezones.blat
 C:\Users\Charles\source\repos\Cstratton-brown\Final_Year_Project\FinalYearProject\Client\bin\Debug\net7.0\wwwroot\_framework\dotnet.wasm
@@ -204,6 +211,7 @@ C:\Users\Charles\source\repos\Cstratton-brown\Final_Year_Project\FinalYearProjec
 C:\Users\Charles\source\repos\Cstratton-brown\Final_Year_Project\FinalYearProject\Client\bin\Debug\net7.0\wwwroot\_framework\System.Xml.XmlSerializer.dll
 C:\Users\Charles\source\repos\Cstratton-brown\Final_Year_Project\FinalYearProject\Client\bin\Debug\net7.0\wwwroot\_framework\System.Xml.XPath.dll
 C:\Users\Charles\source\repos\Cstratton-brown\Final_Year_Project\FinalYearProject\Client\bin\Debug\net7.0\wwwroot\_framework\System.Xml.XPath.XDocument.dll
+C:\Users\Charles\source\repos\Cstratton-brown\Final_Year_Project\FinalYearProject\Client\bin\Debug\net7.0\wwwroot\_framework\Units.dll
 C:\Users\Charles\source\repos\Cstratton-brown\Final_Year_Project\FinalYearProject\Client\bin\Debug\net7.0\wwwroot\_framework\WindowsBase.dll
 C:\Users\Charles\source\repos\Cstratton-brown\Final_Year_Project\FinalYearProject\Client\bin\Debug\net7.0\wwwroot\_framework\System.Security.SecureString.dll.gz
 C:\Users\Charles\source\repos\Cstratton-brown\Final_Year_Project\FinalYearProject\Client\bin\Debug\net7.0\wwwroot\_framework\System.Xml.dll.gz
@@ -326,6 +334,7 @@ C:\Users\Charles\source\repos\Cstratton-brown\Final_Year_Project\FinalYearProjec
 C:\Users\Charles\source\repos\Cstratton-brown\Final_Year_Project\FinalYearProject\Client\bin\Debug\net7.0\wwwroot\_framework\System.Security.Cryptography.Primitives.dll.gz
 C:\Users\Charles\source\repos\Cstratton-brown\Final_Year_Project\FinalYearProject\Client\bin\Debug\net7.0\wwwroot\_framework\System.Text.Encodings.Web.dll.gz
 C:\Users\Charles\source\repos\Cstratton-brown\Final_Year_Project\FinalYearProject\Client\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Extensions.DependencyInjection.Abstractions.dll.gz
+C:\Users\Charles\source\repos\Cstratton-brown\Final_Year_Project\FinalYearProject\Client\bin\Debug\net7.0\wwwroot\_framework\Units.dll.gz
 C:\Users\Charles\source\repos\Cstratton-brown\Final_Year_Project\FinalYearProject\Client\bin\Debug\net7.0\wwwroot\_framework\System.Diagnostics.Debug.dll.gz
 C:\Users\Charles\source\repos\Cstratton-brown\Final_Year_Project\FinalYearProject\Client\bin\Debug\net7.0\wwwroot\_framework\System.Runtime.Loader.dll.gz
 C:\Users\Charles\source\repos\Cstratton-brown\Final_Year_Project\FinalYearProject\Client\bin\Debug\net7.0\wwwroot\_framework\System.Xml.XPath.XDocument.dll.gz
@@ -395,6 +404,7 @@ C:\Users\Charles\source\repos\Cstratton-brown\Final_Year_Project\FinalYearProjec
 C:\Users\Charles\source\repos\Cstratton-brown\Final_Year_Project\FinalYearProject\Client\bin\Debug\net7.0\wwwroot\_framework\System.Security.Principal.dll.gz
 C:\Users\Charles\source\repos\Cstratton-brown\Final_Year_Project\FinalYearProject\Client\bin\Debug\net7.0\wwwroot\_framework\System.Reflection.Metadata.dll.gz
 C:\Users\Charles\source\repos\Cstratton-brown\Final_Year_Project\FinalYearProject\Client\bin\Debug\net7.0\wwwroot\_framework\System.Threading.dll.gz
+C:\Users\Charles\source\repos\Cstratton-brown\Final_Year_Project\FinalYearProject\Client\bin\Debug\net7.0\wwwroot\_framework\Darnton.Blazor.DeviceInterop.dll.gz
 C:\Users\Charles\source\repos\Cstratton-brown\Final_Year_Project\FinalYearProject\Client\bin\Debug\net7.0\wwwroot\_framework\System.Security.Cryptography.Cng.dll.gz
 C:\Users\Charles\source\repos\Cstratton-brown\Final_Year_Project\FinalYearProject\Client\bin\Debug\net7.0\wwwroot\_framework\icudt.dat.gz
 C:\Users\Charles\source\repos\Cstratton-brown\Final_Year_Project\FinalYearProject\Client\bin\Debug\net7.0\wwwroot\_framework\System.Security.AccessControl.dll.gz
@@ -416,6 +426,8 @@ C:\Users\Charles\source\repos\Cstratton-brown\Final_Year_Project\FinalYearProjec
 C:\Users\Charles\source\repos\Cstratton-brown\Final_Year_Project\FinalYearProject\Client\bin\Debug\net7.0\FinalYearProject.Client.staticwebassets.runtime.json
 C:\Users\Charles\source\repos\Cstratton-brown\Final_Year_Project\FinalYearProject\Client\bin\Debug\net7.0\FinalYearProject.Client.dll
 C:\Users\Charles\source\repos\Cstratton-brown\Final_Year_Project\FinalYearProject\Client\bin\Debug\net7.0\FinalYearProject.Client.pdb
+C:\Users\Charles\source\repos\Cstratton-brown\Final_Year_Project\FinalYearProject\Client\bin\Debug\net7.0\Darnton.Blazor.DeviceInterop.dll
+C:\Users\Charles\source\repos\Cstratton-brown\Final_Year_Project\FinalYearProject\Client\bin\Debug\net7.0\Units.dll
 C:\Users\Charles\source\repos\Cstratton-brown\Final_Year_Project\FinalYearProject\Client\bin\Debug\net7.0\GoogleMapsApi.dll
 C:\Users\Charles\source\repos\Cstratton-brown\Final_Year_Project\FinalYearProject\Client\bin\Debug\net7.0\Microsoft.AspNetCore.Authorization.dll
 C:\Users\Charles\source\repos\Cstratton-brown\Final_Year_Project\FinalYearProject\Client\bin\Debug\net7.0\Microsoft.AspNetCore.Components.dll
@@ -619,12 +631,8 @@ C:\Users\Charles\source\repos\Cstratton-brown\Final_Year_Project\FinalYearProjec
 C:\Users\Charles\source\repos\Cstratton-brown\Final_Year_Project\FinalYearProject\Client\bin\Debug\net7.0\icudt_no_CJK.dat
 C:\Users\Charles\source\repos\Cstratton-brown\Final_Year_Project\FinalYearProject\Client\bin\Debug\net7.0\FinalYearProject.Shared.dll
 C:\Users\Charles\source\repos\Cstratton-brown\Final_Year_Project\FinalYearProject\Client\bin\Debug\net7.0\FinalYearProject.Shared.pdb
-C:\Users\Charles\source\repos\Cstratton-brown\Final_Year_Project\FinalYearProject\Client\obj\Debug\net7.0\FinalYearProject.Client.csproj.AssemblyReference.cache
-C:\Users\Charles\source\repos\Cstratton-brown\Final_Year_Project\FinalYearProject\Client\obj\Debug\net7.0\FinalYearProject.Client.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Charles\source\repos\Cstratton-brown\Final_Year_Project\FinalYearProject\Client\obj\Debug\net7.0\FinalYearProject.Client.AssemblyInfoInputs.cache
-C:\Users\Charles\source\repos\Cstratton-brown\Final_Year_Project\FinalYearProject\Client\obj\Debug\net7.0\FinalYearProject.Client.AssemblyInfo.cs
-C:\Users\Charles\source\repos\Cstratton-brown\Final_Year_Project\FinalYearProject\Client\obj\Debug\net7.0\FinalYearProject.Client.csproj.CoreCompileInputs.cache
-C:\Users\Charles\source\repos\Cstratton-brown\Final_Year_Project\FinalYearProject\Client\obj\Debug\net7.0\FinalYearProject.Client.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Charles\source\repos\Cstratton-brown\Final_Year_Project\FinalYearProject\Client\obj\Debug\net7.0\build-gz\wXK76Gg6.gz
+C:\Users\Charles\source\repos\Cstratton-brown\Final_Year_Project\FinalYearProject\Client\obj\Debug\net7.0\build-gz\NDW94DsO.gz
 C:\Users\Charles\source\repos\Cstratton-brown\Final_Year_Project\FinalYearProject\Client\obj\Debug\net7.0\build-gz\Nzgle59J.gz
 C:\Users\Charles\source\repos\Cstratton-brown\Final_Year_Project\FinalYearProject\Client\obj\Debug\net7.0\build-gz\mXBJTOsG.gz
 C:\Users\Charles\source\repos\Cstratton-brown\Final_Year_Project\FinalYearProject\Client\obj\Debug\net7.0\build-gz\UWnx4+yt.gz

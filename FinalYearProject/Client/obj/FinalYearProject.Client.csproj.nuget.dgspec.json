@@ -68,6 +68,10 @@
             "Microsoft.Extensions.Http": {
               "target": "Package",
               "version": "[7.0.0, )"
+            },
+            "leaflet": {
+              "target": "Package",
+              "version": "[0.7.3, )"
             }
           },
           "imports": [
@@ -144,6 +148,10 @@
             "Darnton.Blazor.DeviceInterop": {
               "target": "Package",
               "version": "[0.1.2, )"
+            },
+            "leaflet": {
+              "target": "Package",
+              "version": "[0.7.3, )"
             }
           },
           "imports": [

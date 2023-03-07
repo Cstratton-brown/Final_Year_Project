@@ -9,12 +9,20 @@
       "url": "icon-512.png"
     },
     {
-      "hash": "sha256-SmIJ2sxzp2IKSPHjPXnVlSAdzlWbHHzBCg+iOruFogk=",
+      "hash": "sha256-uh5kXd4dZ2\/dTOnCzGJkQAqLF2ddAcMx08p92QLD2K4=",
       "url": "index.html"
     },
     {
       "hash": "sha256-6dToYd9QHwrXTBvZuUneG6k5G5ui2HPciSZu0Ll4\/ig=",
       "url": "manifest.json"
+    },
+    {
+      "hash": "sha256-DZ\/jfCwm1TFrBcBrcJJkyABDTDVMz8ErYETwpSRSIas=",
+      "url": "_framework\/Darnton.Blazor.DeviceInterop.dll"
+    },
+    {
+      "hash": "sha256-lZBlkdG3twAkNSrZlgYv9rn05s0UkaOk5TNWzqP7zCA=",
+      "url": "_framework\/Units.dll"
     },
     {
       "hash": "sha256-8+Yf3kTFAJjtqqh9aq9kPYvkvU+kZP538LEYrEL+vjY=",
@@ -821,19 +829,19 @@
       "url": "_framework\/icudt_no_CJK.dat"
     },
     {
-      "hash": "sha256-jDVn5aTzw+ZRKrcnIbplDa0jmosh0KE8\/JQhx0wRG08=",
+      "hash": "sha256-l6xQaV7VrsR\/NtcSm5os8N2W2i9awkeszRiD\/cmyjIk=",
       "url": "_framework\/FinalYearProject.Shared.dll"
     },
     {
-      "hash": "sha256-9KRImsg5zwIuEeRoJFujgFhw2nFyE1mKCGxQtebm868=",
+      "hash": "sha256-SIRdETgdhiEzSOYKgELaVvDGvTtm\/nEiRIdRmGyBM5M=",
       "url": "_framework\/FinalYearProject.Shared.pdb"
     },
     {
-      "hash": "sha256-3ZDc+Aw8xkjshShdcFltp8wVrH7gl8nouQkcVxuT+d8=",
+      "hash": "sha256-6YITdtv61hUUrjDoMCx3a3yC4wi728dETrhsLhBbkb4=",
       "url": "_framework\/FinalYearProject.Client.dll"
     },
     {
-      "hash": "sha256-gUWGupGUgltu5YqtYElBRieLjAjQ8WMDK3cOp4MKXpg=",
+      "hash": "sha256-jDYq8kNI\/qyjRYd+Fr9keEsi2xb6xdOM+4x\/8aH+LA0=",
       "url": "_framework\/FinalYearProject.Client.pdb"
     },
     {
@@ -841,9 +849,13 @@
       "url": "_framework\/blazor.webassembly.js"
     },
     {
-      "hash": "sha256-ArySoMnPC3OHwMtRGsbkaZPeUjLvQVpRixtNEmodnIM=",
+      "hash": "sha256-e+PUhZiJ2EUqZqg5qv2DjJDn5BBjqh1+rRwvJ6POT7A=",
       "url": "_framework\/blazor.boot.json"
+    },
+    {
+      "hash": "sha256-BOyiH18DbIIvbW\/0flv4Mg+Fs6bxdj5PvuVmNAZpcs8=",
+      "url": "_content\/Darnton.Blazor.DeviceInterop\/js\/Geolocation.js"
     }
   ],
-  "version": "mGeuHjAK"
+  "version": "jzMj4moU"
 };

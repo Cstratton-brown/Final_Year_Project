@@ -1,12 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "onuwSFQdL6K4ntySMCn/gdLNNwZaeHjaW3lvB9wDNZ1ZoVk3P2VhCd68bVplMBQaw8DPjh23XjGH0RoROJzrJA==",
+  "dgSpecHash": "0abcyzDqfN6ne6sz6zxpgez7MpYfOSsXNCqVQAJDEnp/gYMonQy0bTRNusZfj6LiQaeMNX0lhZ1DYrImdDPhUQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\Charles\\source\\repos\\Cstratton-brown\\Final_Year_Project\\FinalYearProject\\Client\\FinalYearProject.Client.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Charles\\.nuget\\packages\\darnton.blazor.deviceinterop\\0.1.2\\darnton.blazor.deviceinterop.0.1.2.nupkg.sha512",
     "C:\\Users\\Charles\\.nuget\\packages\\darnton.units\\0.1.1\\darnton.units.0.1.1.nupkg.sha512",
     "C:\\Users\\Charles\\.nuget\\packages\\googlemapsapi\\1.2.1\\googlemapsapi.1.2.1.nupkg.sha512",
+    "C:\\Users\\Charles\\.nuget\\packages\\leaflet\\0.7.3\\leaflet.0.7.3.nupkg.sha512",
     "C:\\Users\\Charles\\.nuget\\packages\\microsoft.aspnetcore.authorization\\7.0.2\\microsoft.aspnetcore.authorization.7.0.2.nupkg.sha512",
     "C:\\Users\\Charles\\.nuget\\packages\\microsoft.aspnetcore.components\\7.0.2\\microsoft.aspnetcore.components.7.0.2.nupkg.sha512",
     "C:\\Users\\Charles\\.nuget\\packages\\microsoft.aspnetcore.components.analyzers\\7.0.2\\microsoft.aspnetcore.components.analyzers.7.0.2.nupkg.sha512",

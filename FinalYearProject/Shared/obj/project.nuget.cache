@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "fRto8Bse6Rrf796Hmp82IaIzfT0NK2Pb3G2qd8iPVH4kEq0QUhnjkcEYKHcWyvOFhbkoEpz0qBEtMxfWoGGYBg==",
+  "dgSpecHash": "o5vRn6mh2qcrVtC8f8Lq+pSp6W9a2sQzNHcaD2ssDWu8BGXaY3GubJwKOhSRKM3N4rIX16SMn7Z7jMJ1MRz6kg==",
   "success": true,
   "projectFilePath": "C:\\Users\\Charles\\source\\repos\\Cstratton-brown\\Final_Year_Project\\FinalYearProject\\Shared\\FinalYearProject.Shared.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Charles\\.nuget\\packages\\darnton.blazor.deviceinterop\\0.1.2\\darnton.blazor.deviceinterop.0.1.2.nupkg.sha512",
     "C:\\Users\\Charles\\.nuget\\packages\\darnton.units\\0.1.1\\darnton.units.0.1.1.nupkg.sha512",
+    "C:\\Users\\Charles\\.nuget\\packages\\leaflet\\0.7.3\\leaflet.0.7.3.nupkg.sha512",
     "C:\\Users\\Charles\\.nuget\\packages\\microsoft.aspnetcore.authorization\\5.0.0\\microsoft.aspnetcore.authorization.5.0.0.nupkg.sha512",
     "C:\\Users\\Charles\\.nuget\\packages\\microsoft.aspnetcore.components\\5.0.0\\microsoft.aspnetcore.components.5.0.0.nupkg.sha512",
     "C:\\Users\\Charles\\.nuget\\packages\\microsoft.aspnetcore.components.analyzers\\5.0.0\\microsoft.aspnetcore.components.analyzers.5.0.0.nupkg.sha512",

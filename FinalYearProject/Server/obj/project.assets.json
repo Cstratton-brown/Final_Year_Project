@@ -55,6 +55,9 @@
           "lib/net6.0/GoogleMapsApi.dll": {}
         }
       },
+      "leaflet/0.7.3": {
+        "type": "package"
+      },
       "Microsoft.AspNetCore.Authorization/7.0.2": {
         "type": "package",
         "dependencies": {
@@ -1865,7 +1868,8 @@
           "FinalYearProject.Shared": "1.0.0",
           "GoogleMapsApi": "1.2.1",
           "Microsoft.AspNetCore.Components.WebAssembly": "7.0.2",
-          "Microsoft.Extensions.Http": "7.0.0"
+          "Microsoft.Extensions.Http": "7.0.0",
+          "leaflet": "0.7.3"
         },
         "compile": {
           "bin/placeholder/FinalYearProject.Client.dll": {}
@@ -1878,7 +1882,8 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
-          "Darnton.Blazor.DeviceInterop": "0.1.2"
+          "Darnton.Blazor.DeviceInterop": "0.1.2",
+          "leaflet": "0.7.3"
         },
         "compile": {
           "bin/placeholder/FinalYearProject.Shared.dll": {}
@@ -1933,6 +1938,25 @@
         "lib/net6.0/GoogleMapsApi.dll",
         "lib/netcoreapp3.1/GoogleMapsApi.dll",
         "lib/netstandard2.0/GoogleMapsApi.dll"
+      ]
+    },
+    "leaflet/0.7.3": {
+      "sha512": "R20Vv1lXuqcu6lKeHFy8KnahLxetHaKBS0S2y/mrq+phhkTtz0zIr6isxJR89LuQR9v53aKNMFVyaxLU+zagEw==",
+      "type": "package",
+      "path": "leaflet/0.7.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "content/Content/images/layers-2x.png",
+        "content/Content/images/layers.png",
+        "content/Content/images/marker-icon-2x.png",
+        "content/Content/images/marker-icon.png",
+        "content/Content/images/marker-shadow.png",
+        "content/Content/leaflet.css",
+        "content/Scripts/leaflet-0.7.3.js",
+        "content/Scripts/leaflet-0.7.3.min.js",
+        "leaflet.0.7.3.nupkg.sha512",
+        "leaflet.nuspec"
       ]
     },
     "Microsoft.AspNetCore.Authorization/7.0.2": {
@@ -5965,7 +5989,8 @@
       "Darnton.Blazor.DeviceInterop >= 0.1.2",
       "FinalYearProject.Client >= 1.0.0",
       "FinalYearProject.Shared >= 1.0.0",
-      "Microsoft.AspNetCore.Components.WebAssembly.Server >= 7.0.2"
+      "Microsoft.AspNetCore.Components.WebAssembly.Server >= 7.0.2",
+      "leaflet >= 0.7.3"
     ]
   },
   "packageFolders": {
@@ -6026,6 +6051,10 @@
           "Microsoft.AspNetCore.Components.WebAssembly.Server": {
             "target": "Package",
             "version": "[7.0.2, )"
+          },
+          "leaflet": {
+            "target": "Package",
+            "version": "[0.7.3, )"
           }
         },
         "imports": [

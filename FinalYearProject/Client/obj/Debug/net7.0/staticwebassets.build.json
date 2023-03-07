@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "nUcRuGQpGEKhuvzbq9fWIIZpYqX1VoNE6SsGvrjW3Qk=",
+  "Hash": "CXuRhBhvLYpHp+8PqW/CtCWvtu1WwWjj+O8UARv8IvU=",
   "Source": "FinalYearProject.Client",
   "BasePath": "/",
   "Mode": "Root",
@@ -16,6 +16,23 @@
     }
   ],
   "Assets": [
+    {
+      "Identity": "C:\\Users\\Charles\\.nuget\\packages\\darnton.blazor.deviceinterop\\0.1.2\\staticwebassets\\js\\Geolocation.js",
+      "SourceId": "Darnton.Blazor.DeviceInterop",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\Charles\\.nuget\\packages\\darnton.blazor.deviceinterop\\0.1.2\\staticwebassets\\",
+      "BasePath": "_content/Darnton.Blazor.DeviceInterop",
+      "RelativePath": "js/Geolocation.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\Charles\\.nuget\\packages\\darnton.blazor.deviceinterop\\0.1.2\\staticwebassets\\js\\Geolocation.js"
+    },
     {
       "Identity": "C:\\Users\\Charles\\source\\repos\\Cstratton-brown\\Final_Year_Project\\FinalYearProject\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\blazor.boot.json",
       "SourceId": "FinalYearProject.Client",
@@ -49,6 +66,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\Charles\\.nuget\\packages\\microsoft.aspnetcore.components.webassembly\\7.0.2\\build\\net7.0\\blazor.webassembly.js"
+    },
+    {
+      "Identity": "C:\\Users\\Charles\\source\\repos\\Cstratton-brown\\Final_Year_Project\\FinalYearProject\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Darnton.Blazor.DeviceInterop.dll",
+      "SourceId": "FinalYearProject.Client",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\Charles\\source\\repos\\Cstratton-brown\\Final_Year_Project\\FinalYearProject\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Darnton.Blazor.DeviceInterop.dll",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\Charles\\.nuget\\packages\\darnton.blazor.deviceinterop\\0.1.2\\lib\\net5.0\\Darnton.Blazor.DeviceInterop.dll"
     },
     {
       "Identity": "C:\\Users\\Charles\\source\\repos\\Cstratton-brown\\Final_Year_Project\\FinalYearProject\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\dotnet.7.0.2.e8gxhnrq4n.js",
@@ -3519,6 +3553,23 @@
       "OriginalItemSpec": "C:\\Users\\Charles\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\7.0.2\\runtimes\\browser-wasm\\lib\\net7.0\\System.Xml.XPath.XDocument.dll"
     },
     {
+      "Identity": "C:\\Users\\Charles\\source\\repos\\Cstratton-brown\\Final_Year_Project\\FinalYearProject\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Units.dll",
+      "SourceId": "FinalYearProject.Client",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\Charles\\source\\repos\\Cstratton-brown\\Final_Year_Project\\FinalYearProject\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Units.dll",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\Charles\\.nuget\\packages\\darnton.units\\0.1.1\\lib\\netstandard1.0\\Units.dll"
+    },
+    {
       "Identity": "C:\\Users\\Charles\\source\\repos\\Cstratton-brown\\Final_Year_Project\\FinalYearProject\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\WindowsBase.dll",
       "SourceId": "FinalYearProject.Client",
       "SourceType": "Computed",
@@ -5593,6 +5644,23 @@
       "OriginalItemSpec": "C:\\Users\\Charles\\source\\repos\\Cstratton-brown\\Final_Year_Project\\FinalYearProject\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.Extensions.DependencyInjection.Abstractions.dll"
     },
     {
+      "Identity": "C:\\Users\\Charles\\source\\repos\\Cstratton-brown\\Final_Year_Project\\FinalYearProject\\Client\\obj\\Debug\\net7.0\\build-gz\\NDW94DsO.gz",
+      "SourceId": "FinalYearProject.Client",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\Charles\\source\\repos\\Cstratton-brown\\Final_Year_Project\\FinalYearProject\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Units.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Users\\Charles\\source\\repos\\Cstratton-brown\\Final_Year_Project\\FinalYearProject\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Units.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\Charles\\source\\repos\\Cstratton-brown\\Final_Year_Project\\FinalYearProject\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Units.dll"
+    },
+    {
       "Identity": "C:\\Users\\Charles\\source\\repos\\Cstratton-brown\\Final_Year_Project\\FinalYearProject\\Client\\obj\\Debug\\net7.0\\build-gz\\NEh3k5RO.gz",
       "SourceId": "FinalYearProject.Client",
       "SourceType": "Computed",
@@ -6764,6 +6832,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\Charles\\source\\repos\\Cstratton-brown\\Final_Year_Project\\FinalYearProject\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\System.Threading.dll"
+    },
+    {
+      "Identity": "C:\\Users\\Charles\\source\\repos\\Cstratton-brown\\Final_Year_Project\\FinalYearProject\\Client\\obj\\Debug\\net7.0\\build-gz\\wXK76Gg6.gz",
+      "SourceId": "FinalYearProject.Client",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\Charles\\source\\repos\\Cstratton-brown\\Final_Year_Project\\FinalYearProject\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Darnton.Blazor.DeviceInterop.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Users\\Charles\\source\\repos\\Cstratton-brown\\Final_Year_Project\\FinalYearProject\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Darnton.Blazor.DeviceInterop.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\Charles\\source\\repos\\Cstratton-brown\\Final_Year_Project\\FinalYearProject\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Darnton.Blazor.DeviceInterop.dll"
     },
     {
       "Identity": "C:\\Users\\Charles\\source\\repos\\Cstratton-brown\\Final_Year_Project\\FinalYearProject\\Client\\obj\\Debug\\net7.0\\build-gz\\WyXr6kZb.gz",

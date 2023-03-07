@@ -1,3 +1,9 @@
+C:\Users\Charles\source\repos\Cstratton-brown\Final_Year_Project\FinalYearProject\Server\obj\Debug\net7.0\FinalYearProject.Server.csproj.AssemblyReference.cache
+C:\Users\Charles\source\repos\Cstratton-brown\Final_Year_Project\FinalYearProject\Server\obj\Debug\net7.0\FinalYearProject.Server.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Charles\source\repos\Cstratton-brown\Final_Year_Project\FinalYearProject\Server\obj\Debug\net7.0\FinalYearProject.Server.AssemblyInfoInputs.cache
+C:\Users\Charles\source\repos\Cstratton-brown\Final_Year_Project\FinalYearProject\Server\obj\Debug\net7.0\FinalYearProject.Server.AssemblyInfo.cs
+C:\Users\Charles\source\repos\Cstratton-brown\Final_Year_Project\FinalYearProject\Server\obj\Debug\net7.0\FinalYearProject.Server.csproj.CoreCompileInputs.cache
+C:\Users\Charles\source\repos\Cstratton-brown\Final_Year_Project\FinalYearProject\Server\obj\Debug\net7.0\FinalYearProject.Server.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\Charles\source\repos\Cstratton-brown\Final_Year_Project\FinalYearProject\Server\bin\Debug\net7.0\FinalYearProject.Client.staticwebassets.runtime.json
 C:\Users\Charles\source\repos\Cstratton-brown\Final_Year_Project\FinalYearProject\Server\bin\Debug\net7.0\appsettings.Development.json
 C:\Users\Charles\source\repos\Cstratton-brown\Final_Year_Project\FinalYearProject\Server\bin\Debug\net7.0\appsettings.json
@@ -15,6 +21,8 @@ C:\Users\Charles\source\repos\Cstratton-brown\Final_Year_Project\FinalYearProjec
 C:\Users\Charles\source\repos\Cstratton-brown\Final_Year_Project\FinalYearProject\Server\bin\Debug\net7.0\FinalYearProject.Server.runtimeconfig.json
 C:\Users\Charles\source\repos\Cstratton-brown\Final_Year_Project\FinalYearProject\Server\bin\Debug\net7.0\FinalYearProject.Server.dll
 C:\Users\Charles\source\repos\Cstratton-brown\Final_Year_Project\FinalYearProject\Server\bin\Debug\net7.0\FinalYearProject.Server.pdb
+C:\Users\Charles\source\repos\Cstratton-brown\Final_Year_Project\FinalYearProject\Server\bin\Debug\net7.0\Darnton.Blazor.DeviceInterop.dll
+C:\Users\Charles\source\repos\Cstratton-brown\Final_Year_Project\FinalYearProject\Server\bin\Debug\net7.0\Units.dll
 C:\Users\Charles\source\repos\Cstratton-brown\Final_Year_Project\FinalYearProject\Server\bin\Debug\net7.0\GoogleMapsApi.dll
 C:\Users\Charles\source\repos\Cstratton-brown\Final_Year_Project\FinalYearProject\Server\bin\Debug\net7.0\Microsoft.AspNetCore.Authorization.dll
 C:\Users\Charles\source\repos\Cstratton-brown\Final_Year_Project\FinalYearProject\Server\bin\Debug\net7.0\Microsoft.AspNetCore.Components.dll
@@ -31,12 +39,6 @@ C:\Users\Charles\source\repos\Cstratton-brown\Final_Year_Project\FinalYearProjec
 C:\Users\Charles\source\repos\Cstratton-brown\Final_Year_Project\FinalYearProject\Server\bin\Debug\net7.0\FinalYearProject.Shared.dll
 C:\Users\Charles\source\repos\Cstratton-brown\Final_Year_Project\FinalYearProject\Server\bin\Debug\net7.0\FinalYearProject.Client.pdb
 C:\Users\Charles\source\repos\Cstratton-brown\Final_Year_Project\FinalYearProject\Server\bin\Debug\net7.0\FinalYearProject.Shared.pdb
-C:\Users\Charles\source\repos\Cstratton-brown\Final_Year_Project\FinalYearProject\Server\obj\Debug\net7.0\FinalYearProject.Server.csproj.AssemblyReference.cache
-C:\Users\Charles\source\repos\Cstratton-brown\Final_Year_Project\FinalYearProject\Server\obj\Debug\net7.0\FinalYearProject.Server.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Charles\source\repos\Cstratton-brown\Final_Year_Project\FinalYearProject\Server\obj\Debug\net7.0\FinalYearProject.Server.AssemblyInfoInputs.cache
-C:\Users\Charles\source\repos\Cstratton-brown\Final_Year_Project\FinalYearProject\Server\obj\Debug\net7.0\FinalYearProject.Server.AssemblyInfo.cs
-C:\Users\Charles\source\repos\Cstratton-brown\Final_Year_Project\FinalYearProject\Server\obj\Debug\net7.0\FinalYearProject.Server.csproj.CoreCompileInputs.cache
-C:\Users\Charles\source\repos\Cstratton-brown\Final_Year_Project\FinalYearProject\Server\obj\Debug\net7.0\FinalYearProject.Server.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\Charles\source\repos\Cstratton-brown\Final_Year_Project\FinalYearProject\Server\obj\Debug\net7.0\staticwebassets\msbuild.FinalYearProject.Server.Microsoft.AspNetCore.StaticWebAssets.props
 C:\Users\Charles\source\repos\Cstratton-brown\Final_Year_Project\FinalYearProject\Server\obj\Debug\net7.0\staticwebassets\msbuild.build.FinalYearProject.Server.props
 C:\Users\Charles\source\repos\Cstratton-brown\Final_Year_Project\FinalYearProject\Server\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.FinalYearProject.Server.props

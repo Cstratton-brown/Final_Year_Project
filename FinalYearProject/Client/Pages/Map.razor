@@ -1,4 +1,4 @@
-﻿@page "/HospitalMap"
+﻿@page "/Map"
 
 @inject IJSRuntime JSRuntime
 
@@ -14,7 +14,7 @@
             await JSRuntime.InvokeVoidAsync("initialize", null);
             StateHasChanged();
         }
-        
+
 
     }
 
