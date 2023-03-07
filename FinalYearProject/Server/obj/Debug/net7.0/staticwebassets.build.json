@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "OVxkEpbS/e4OnPMLOYEqtlAOFn6bnBpTmyJkE9PSJx4=",
+  "Hash": "BAtYWFH33xAxuFnZ1qx4aMEIUTJGueTjUMnV2ZQnL18=",
   "Source": "FinalYearProject.Server",
   "BasePath": "_content/FinalYearProject.Server",
   "Mode": "Default",
@@ -7186,6 +7186,23 @@
       "OriginalItemSpec": "wwwroot\\css\\app.css"
     },
     {
+      "Identity": "C:\\Users\\Charles\\source\\repos\\Cstratton-brown\\Final_Year_Project\\FinalYearProject\\Client\\wwwroot\\css\\Style.css",
+      "SourceId": "FinalYearProject.Client",
+      "SourceType": "Project",
+      "ContentRoot": "C:\\Users\\Charles\\source\\repos\\Cstratton-brown\\Final_Year_Project\\FinalYearProject\\Client\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "css/Style.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\Style.css"
+    },
+    {
       "Identity": "C:\\Users\\Charles\\source\\repos\\Cstratton-brown\\Final_Year_Project\\FinalYearProject\\Client\\wwwroot\\icon-512.png",
       "SourceId": "FinalYearProject.Client",
       "SourceType": "Project",
@@ -7218,6 +7235,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\index.html"
+    },
+    {
+      "Identity": "C:\\Users\\Charles\\source\\repos\\Cstratton-brown\\Final_Year_Project\\FinalYearProject\\Client\\wwwroot\\Initialize.js",
+      "SourceId": "FinalYearProject.Client",
+      "SourceType": "Project",
+      "ContentRoot": "C:\\Users\\Charles\\source\\repos\\Cstratton-brown\\Final_Year_Project\\FinalYearProject\\Client\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "Initialize.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Initialize.js"
     },
     {
       "Identity": "C:\\Users\\Charles\\source\\repos\\Cstratton-brown\\Final_Year_Project\\FinalYearProject\\Client\\wwwroot\\manifest.json",

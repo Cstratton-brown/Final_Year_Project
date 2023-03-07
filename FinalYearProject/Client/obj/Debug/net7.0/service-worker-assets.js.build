@@ -5,12 +5,20 @@
       "url": "css\/app.css"
     },
     {
+      "hash": "sha256-QFJ+F2v+fUV0XBhozWFdTL\/u0Y8k8HA0oSSoAvflQKg=",
+      "url": "css\/Style.css"
+    },
+    {
       "hash": "sha256-oEo6d+KqX5fjxTiZk\/w9NB3Mi0+ycS5yLwCKwr4IkbA=",
       "url": "icon-512.png"
     },
     {
-      "hash": "sha256-uh5kXd4dZ2\/dTOnCzGJkQAqLF2ddAcMx08p92QLD2K4=",
+      "hash": "sha256-U2eOGPM9PWQSo9yZEPdZWBJcdCkJhn1mQQt9rUVjhJM=",
       "url": "index.html"
+    },
+    {
+      "hash": "sha256-leDp0IVpz26t5ACmj0WBSuT5Ywu0AgxNQv21DLeXodw=",
+      "url": "Initialize.js"
     },
     {
       "hash": "sha256-6dToYd9QHwrXTBvZuUneG6k5G5ui2HPciSZu0Ll4\/ig=",
@@ -837,11 +845,11 @@
       "url": "_framework\/FinalYearProject.Shared.pdb"
     },
     {
-      "hash": "sha256-6YITdtv61hUUrjDoMCx3a3yC4wi728dETrhsLhBbkb4=",
+      "hash": "sha256-4dLiMwregfIdjMOihtiruMytxBxe0rLpkjXiiRjgv+E=",
       "url": "_framework\/FinalYearProject.Client.dll"
     },
     {
-      "hash": "sha256-jDYq8kNI\/qyjRYd+Fr9keEsi2xb6xdOM+4x\/8aH+LA0=",
+      "hash": "sha256-goc0zu8qFhMUHKyq5IA0JprJ4\/0H7GudWWUT0QUMqcg=",
       "url": "_framework\/FinalYearProject.Client.pdb"
     },
     {
@@ -849,7 +857,7 @@
       "url": "_framework\/blazor.webassembly.js"
     },
     {
-      "hash": "sha256-e+PUhZiJ2EUqZqg5qv2DjJDn5BBjqh1+rRwvJ6POT7A=",
+      "hash": "sha256-PUGw\/EI6ddFsQ6FqqicIm5Fs5GXylEqiLMjv8M7BpcA=",
       "url": "_framework\/blazor.boot.json"
     },
     {
@@ -857,5 +865,5 @@
       "url": "_content\/Darnton.Blazor.DeviceInterop\/js\/Geolocation.js"
     }
   ],
-  "version": "jzMj4moU"
+  "version": "kBXGDqrt"
 };
