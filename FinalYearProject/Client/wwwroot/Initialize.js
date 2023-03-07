@@ -7,7 +7,7 @@ let map, infoWindow;
 function initMap() {
     map = new google.maps.Map(document.getElementById("map"), {
         center: { lat: -34.397, lng: 150.644 },
-        zoom: 6,
+        zoom: 13,
     });
     infoWindow = new google.maps.InfoWindow();
 
@@ -23,9 +23,27 @@ function initMap() {
                     };
 
                     infoWindow.setPosition(pos);
-                    infoWindow.setContent("Location found.");
+                    // The marker, positioned at user
+                    const marker = new google.maps.Marker({
+                        position: pos,
+                        map: map,
+                    });
+                    infoWindow.setContent("You are Here");
                     infoWindow.open(map);
                     map.setCenter(pos);
+
+                    var request = {
+                        location: pos,
+                        radius: '5000',
+                        type: ['hospital']
+                    };
+
+                    
+
+                    google.service = new google.maps.places.PlacesService(map);
+                    google.service.nearbySearch(request, callback);
+
+
                 },
                 () => {
                     handleLocationError(true, infoWindow, map.getCenter());
@@ -46,6 +64,21 @@ function handleLocationError(browserHasGeolocation, infoWindow, pos) {
             : "Error: Your browser doesn't support geolocation."
     );
     infoWindow.open(map);
+}
+function createMarker(place) {
+
+    new google.maps.Marker({
+        position: place.geometry.location,
+        map: map
+    });
+}
+
+function callback(results, status) {
+    if (status == google.maps.places.PlacesServiceStatus.OK) {
+        for (var i = 0; i < results.length; i++) {
+            createMarker(results[i]);
+        }
+    }
 }
 
 window.initMap = initMap;
