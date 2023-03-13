@@ -5,9 +5,31 @@
 let map, infoWindow;
 
 function initMap() {
+
+    const styles = {
+        default: [],
+        hide: [
+            {
+                featureType: "poi",
+                stylers: [{ visibility: "off" }],
+            },
+            {
+                featureType: "poi.medical",
+                stylers: [{ visibility: "on" }],
+            },
+            {
+                featureType: "transit",
+                elementType: "labels.icon",
+                stylers: [{ visibility: "off" }],
+            },
+        ],
+    };
+
+
     map = new google.maps.Map(document.getElementById("map"), {
         center: { lat: -34.397, lng: 150.644 },
         zoom: 13,
+        styles: styles["hide"]
     });
     infoWindow = new google.maps.InfoWindow();
 
@@ -24,6 +46,7 @@ function initMap() {
 
                     infoWindow.setPosition(pos);
                     // The marker, positioned at user
+
                     const marker = new google.maps.Marker({
                         position: pos,
                         map: map,
@@ -32,12 +55,12 @@ function initMap() {
                     infoWindow.open(map);
                     map.setCenter(pos);
 
+                    
                     var request = {
                         location: pos,
                         radius: '5000',
                         type: ['hospital']
                     };
-
                     
 
                     google.service = new google.maps.places.PlacesService(map);
@@ -52,7 +75,8 @@ function initMap() {
         } else {
             // Browser doesn't support Geolocation
             handleLocationError(false, infoWindow, map.getCenter());
-        }
+    }
+
  
 }
 
@@ -73,13 +97,13 @@ function createMarker(place) {
     });
 }
 
-function callback(results, status) {
-    if (status == google.maps.places.PlacesServiceStatus.OK) {
-        for (var i = 0; i < results.length; i++) {
-            createMarker(results[i]);
-        }
-    }
-}
+//function callback(results, status) {
+//    if (status == google.maps.places.PlacesServiceStatus.OK) {
+//        for (var i = 0; i < results.length; i++) {
+//            createMarker(results[i]);
+//        }
+//    }
+//}
 
 window.initMap = initMap;
 console.log("initialize Java");
