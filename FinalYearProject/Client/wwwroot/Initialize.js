@@ -97,13 +97,14 @@ function createMarker(place) {
     });
 }
 
-//function callback(results, status) {
-//    if (status == google.maps.places.PlacesServiceStatus.OK) {
-//        for (var i = 0; i < results.length; i++) {
-//            createMarker(results[i]);
-//        }
-//    }
-//}
+function callback(results, status) {
+    if (status == google.maps.places.PlacesServiceStatus.OK) {
+        for (var i = 0; i < results.length; i++) {
+            createMarker(results[i]);
+            infoWindow.setContent("Medical");
+        }
+    }
+}
 
 window.initMap = initMap;
 console.log("initialize Java");
