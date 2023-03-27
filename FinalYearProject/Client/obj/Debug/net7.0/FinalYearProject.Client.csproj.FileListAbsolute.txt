@@ -834,10 +834,6 @@ C:\Users\Charles\source\repos\Cstratton-brown\Final_Year_Project\FinalYearProjec
 C:\Users\Charles\source\repos\Cstratton-brown\Final_Year_Project\FinalYearProject\Client\obj\Debug\net7.0\build-gz\v1j9ePer.gz
 C:\Users\Charles\source\repos\Cstratton-brown\Final_Year_Project\FinalYearProject\Client\obj\Debug\net7.0\build-gz\+8T2SQsX.gz
 C:\Users\Charles\source\repos\Cstratton-brown\Final_Year_Project\FinalYearProject\Client\obj\Debug\net7.0\build-gz\SN+TAFpS.gz
-C:\Users\Charles\source\repos\Cstratton-brown\Final_Year_Project\FinalYearProject\Client\obj\Debug\net7.0\build-gz\G62REZuN.gz
-C:\Users\Charles\source\repos\Cstratton-brown\Final_Year_Project\FinalYearProject\Client\obj\Debug\net7.0\build-gz\EQXa9J4e.gz
-C:\Users\Charles\source\repos\Cstratton-brown\Final_Year_Project\FinalYearProject\Client\obj\Debug\net7.0\build-gz\RSrCXrIk.gz
-C:\Users\Charles\source\repos\Cstratton-brown\Final_Year_Project\FinalYearProject\Client\obj\Debug\net7.0\build-gz\0EfLlCEF.gz
 C:\Users\Charles\source\repos\Cstratton-brown\Final_Year_Project\FinalYearProject\Client\obj\Debug\net7.0\build-gz\eW3wDor6.gz
 C:\Users\Charles\source\repos\Cstratton-brown\Final_Year_Project\FinalYearProject\Client\obj\Debug\net7.0\blazor.boot.json
 C:\Users\Charles\source\repos\Cstratton-brown\Final_Year_Project\FinalYearProject\Client\obj\Debug\net7.0\staticwebassets\msbuild.FinalYearProject.Client.Microsoft.AspNetCore.StaticWebAssets.props
@@ -855,3 +851,7 @@ C:\Users\Charles\source\repos\Cstratton-brown\Final_Year_Project\FinalYearProjec
 C:\Users\Charles\source\repos\Cstratton-brown\Final_Year_Project\FinalYearProject\Client\obj\Debug\net7.0\refint\FinalYearProject.Client.dll
 C:\Users\Charles\source\repos\Cstratton-brown\Final_Year_Project\FinalYearProject\Client\obj\Debug\net7.0\FinalYearProject.Client.pdb
 C:\Users\Charles\source\repos\Cstratton-brown\Final_Year_Project\FinalYearProject\Client\obj\Debug\net7.0\ref\FinalYearProject.Client.dll
+C:\Users\Charles\source\repos\Cstratton-brown\Final_Year_Project\FinalYearProject\Client\obj\Debug\net7.0\build-gz\G62REZuN.gz
+C:\Users\Charles\source\repos\Cstratton-brown\Final_Year_Project\FinalYearProject\Client\obj\Debug\net7.0\build-gz\EQXa9J4e.gz
+C:\Users\Charles\source\repos\Cstratton-brown\Final_Year_Project\FinalYearProject\Client\obj\Debug\net7.0\build-gz\RSrCXrIk.gz
+C:\Users\Charles\source\repos\Cstratton-brown\Final_Year_Project\FinalYearProject\Client\obj\Debug\net7.0\build-gz\0EfLlCEF.gz

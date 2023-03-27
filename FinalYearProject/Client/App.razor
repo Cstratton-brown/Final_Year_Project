@@ -3,6 +3,12 @@
         <RouteView RouteData="@routeData" DefaultLayout="@typeof(MainLayout)" />
         <FocusOnNavigate RouteData="@routeData" Selector="h1" />
     </Found>
+    <Found Context="diagnosis">
+        <RouteView RouteData="@diagnosis" DefaultLayout="@typeof(MainLayout)" />
+    </Found>
+    <Found Context="map">
+        <RouteView RouteData="@map" DefaultLayout="@typeof(MainLayout)" />
+    </Found>
     <NotFound>
         <PageTitle>Not found</PageTitle>
         <LayoutView Layout="@typeof(MainLayout)">
@@ -10,3 +16,5 @@
         </LayoutView>
     </NotFound>
 </Router>
+
+

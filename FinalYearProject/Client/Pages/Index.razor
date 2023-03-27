@@ -1,3 +1,12 @@
-﻿@page "/main"
+﻿@page "/"
+@inject NavigationManager NavigationManager
 
-<h1>Hello, world!</h1>
+<h1>Diagnosis App</h1>
+<button @onclick="() => NavigateToDiagnosis()">Symptom Diagnosis</button>
+<button @onclick="() => NavigateToMap()">Nearby Medical Locations</button>
+
+@code {
+    private void NavigateToDiagnosis() => NavigationManager.NavigateTo("/diagnosis", true);
+
+    private void NavigateToMap() => NavigationManager.NavigateTo("/map", true);
+}

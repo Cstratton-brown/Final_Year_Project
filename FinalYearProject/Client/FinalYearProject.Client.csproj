@@ -8,6 +8,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Include="wwwroot\Initialize.js" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Darnton.Blazor.DeviceInterop" Version="0.1.2" />
     <PackageReference Include="GoogleMapsApi" Version="1.2.1" />
     <PackageReference Include="leaflet" Version="0.7.3" />

@@ -1,0 +1,262 @@
+﻿@page "/diagnosis"
+
+<h3>Diagnosis:</h3>
+<p>If no diagnosis is supplied please refer to the map page to make your way to the nearest medical location for a diagnosis</p>
+
+<table>
+    <thead>
+        <tr>
+            <th>Symptoms</th>
+            <th>Selected</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Skin is hot to touch</td>
+            <td><input type="checkbox" @bind="Option1Selected" disabled="@Option1Disabled" /></td>
+        </tr>
+        <tr>
+            <td>Skin is sore or painful</td>
+            <td><input type="checkbox" @bind="Option2Selected" disabled="@Option2Disabled" /></td>
+        </tr>
+        <tr>
+            <td>Skins is flaking or peeling</td>
+            <td><input type="checkbox" @bind="Option3Selected" disabled="@Option3Disabled" /></td>
+        </tr>
+        <tr>
+            <td>Blocked or runny nose</td>
+            <td><input type="checkbox" @bind="Option4Selected" disabled="@Option4Disabled" /></td>
+        </tr>
+        <tr>
+            <td>Sore throat</td>
+            <td><input type="checkbox" @bind="Option5Selected" disabled="@Option5Disabled" /></td>
+        </tr>
+        <tr>
+            <td>Headaches</td>
+            <td><input type="checkbox" @bind="Option6Selected" disabled="@Option6Disabled" /></td>
+        </tr>
+        <tr>
+            <td>Fever</td>
+            <td><input type="checkbox" @bind="Option7Selected" disabled="@Option7Disabled" /></td>
+        </tr>
+        <tr>
+            <td>Fatigue</td>
+            <td><input type="checkbox" @bind="Option8Selected" disabled="@Option8Disabled" /></td>
+        </tr>
+        <tr>
+            <td>Itchy, red or watery eyese</td>
+            <td><input type="checkbox" @bind="Option9Selected" disabled="@Option9Disabled" /></td>
+        </tr>
+        <tr>
+            <td>Sneezing and coughing</td>
+            <td><input type="checkbox" @bind="Option10Selected" disabled="@Option10Disabled" /></td>
+        </tr>
+        <tr>
+            <td>Itchy, spotty rash</td>
+            <td><input type="checkbox" @bind="Option11Selected" disabled="@Option11Disabled" /></td>
+        </tr>
+        <tr>
+            <td>High temperature</td>
+            <td><input type="checkbox" @bind="Option12Selected" disabled="@Option12Disabled" /></td>
+        </tr>
+        <tr>
+            <td>Loss of appetite</td>
+            <td><input type="checkbox" @bind="Option13Selected" disabled="@Option13Disabled" /></td>
+        </tr>
+        <tr>
+            <td>Feeling sick (nausea)</td>
+            <td><input type="checkbox" @bind="Option14Selected" disabled="@Option14Disabled" /></td>
+        </tr>
+        <tr>
+            <td>Diarrhoea</td>
+            <td><input type="checkbox" @bind="Option15Selected" disabled="@Option15Disabled" /></td>
+        </tr>
+        <tr>
+            <td>Stomach cramps</td>
+            <td><input type="checkbox" @bind="Option16Selected" disabled="@Option16Disabled" /></td>
+        </tr>
+        <tr>
+            <td>Eyes burn or feel gritty</td>
+            <td><input type="checkbox" @bind="Option17Selected" disabled="@Option17Disabled" /></td>
+        </tr>
+        <tr>
+            <td>Eyes itch</td>
+            <td><input type="checkbox" @bind="Option18Selected" disabled="@Option18Disabled" /></td>
+        </tr>
+        <tr>
+            <td>Eyes produce pus that sticks to lashes</td>
+            <td><input type="checkbox" @bind="Option19Selected" disabled="@Option19Disabled" /></td>
+        </tr>
+        <tr>
+            <td>Exhaustion or feeling very tired</td>
+            <td><input type="checkbox" @bind="Option20Selected" disabled="@Option20Disabled" /></td>
+        </tr>
+        <tr>
+            <td>Shivering</td>
+            <td><input type="checkbox" @bind="Option21Selected" disabled="@Option21Disabled" /></td>
+        </tr>
+        <tr>
+            <td>Slurred speech.</td>
+            <td><input type="checkbox" @bind="Option22Selected" disabled="@Option22Disabled" /></td>
+        </tr>
+        <tr>
+            <td>Complete paralysis of 1 side of the body</td>
+            <td><input type="checkbox" @bind="Option23Selected" disabled="@Option23Disabled" /></td>
+        </tr>
+        <tr>
+            <td>Difficulty swallowing</td>
+            <td><input type="checkbox" @bind="Option24Selected" disabled="@Option24Disabled" /></td>
+        </tr>
+        <tr>
+            <td>loss of consciousness</td>
+            <td><input type="checkbox" @bind="Option25Selected" disabled="@Option25Disabled" /></td>
+        </tr>
+        <tr>
+            <td>Very thirsty</td>
+            <td><input type="checkbox" @bind="Option26Selected" disabled="@Option26Disabled" /></td>
+        </tr>
+        <tr>
+            <td>Cramps in the arms, legs and stomach</td>
+            <td><input type="checkbox" @bind="Option27Selected" disabled="@Option27Disabled" /></td>
+        </tr>
+        <tr>
+            <td>Fast breathing or heartbeat</td>
+            <td><input type="checkbox" @bind="Option28Selected" disabled="@Option28Disabled" /></td>
+        </tr>
+        <tr>
+            <td>Weakness</td>
+            <td><input type="checkbox" @bind="Option29Selected" disabled="@Option29Disabled" /></td>
+        </tr>
+        <tr>
+            <td>Dizziness</td>
+            <td><input type="checkbox" @bind="Option30Selected" disabled="@Option30Disabled" /></td>
+        </tr>
+    </tbody>
+</table>
+
+@if (SelectionLimitReached)
+{
+    <p>You can only select up to three options at a time.</p>
+}
+
+<button type="button" @onclick="ShowDiagnosis" disabled="@SelectionLimitReached">Diagnose Symptoms</button>
+
+@if (SelectionsShown)
+{
+    <p>Your symptoms match the following illnesses:</p>
+    <ul>
+        @if (Option1Selected && Option2Selected && Option3Selected || Option1Selected && Option2Selected || Option2Selected && Option3Selected || Option1Selected && Option3Selected || Option1Selected || Option2Selected || Option3Selected)
+        {
+            <li><a href="https://www.nhs.uk/conditions/sunburn/">Sunburn</a></li>
+        }
+        @if (Option4Selected && Option5Selected && Option6Selected || Option4Selected && Option5Selected || Option5Selected && Option6Selected || Option4Selected && Option6Selected || Option4Selected || Option5Selected || Option6Selected)
+        {
+            <li><a href="https://www.nhs.uk/conditions/common-cold/">Common cold</a></li>
+        }
+        @if (Option6Selected && Option7Selected && Option8Selected || Option6Selected && Option7Selected || Option7Selected && Option8Selected || Option6Selected && Option8Selected || Option6Selected || Option7Selected || Option8Selected)
+        {
+            <li><a href="https://www.nhs.uk/conditions/flu/">The Flu</a></li>
+        }
+        @if (Option4Selected && Option9Selected && Option10Selected || Option4Selected && Option9Selected || Option9Selected && Option10Selected || Option4Selected && Option10Selected || Option4Selected || Option9Selected || Option10Selected)
+        {
+            <li><a href="https://www.nhs.uk/conditions/hay-fever/">Hay Fever</a></li>
+        }
+        @if (Option17Selected && Option18Selected && Option19Selected || Option17Selected && Option18Selected || Option18Selected && Option19Selected || Option17Selected && Option19Selected || Option17Selected || Option18Selected || Option19Selected)
+        {
+            <li>><a href="https://www.nhs.uk/conditions/conjunctivitis/">Conjunctivitis: Pink eye </a></li>
+        }
+        @if (Option11Selected && Option12Selected && Option13Selected || Option11Selected && Option12Selected || Option12Selected && Option13Selected || Option11Selected && Option13Selected || Option11Selected || Option12Selected || Option13Selected)
+        {
+            <li>><a href="https://www.nhs.uk/conditions/chickenpox/">Chickenpox</a></li>
+        }
+        @if (Option13Selected && Option14Selected && Option15Selected || Option14Selected && Option15Selected && Option16Selected || Option13Selected && Option14Selected && Option16Selected || Option13Selected && Option15Selected && Option16Selected || Option13Selected && Option14Selected || Option15Selected && Option16Selected || Option13Selected && Option15Selected || Option13Selected && Option16Selected || Option14Selected && Option16Selected || Option13Selected || Option14Selected || Option15Selected || Option16Selected)
+        {
+            <li>><a href="https://www.nhs.uk/conditions/food-poisoning/">Food poisoning</a></li>
+        }@if (Option23Selected && Option24Selected && Option25Selected || Option23Selected && Option24Selected || Option23Selected && Option25Selected || Option24Selected && Option25Selected || Option23Selected || Option24Selected || Option25Selected)
+        {
+            <li>><a href="https://www.nhs.uk/conditions/stroke/">Stroke</a></li>
+        }
+        @if (Option30Selected && Option29Selected && Option28Selected || Option30Selected && Option29Selected && Option27Selected || Option30Selected && Option29Selected && Option26Selected || Option30Selected && Option29Selected && Option20Selected || Option29Selected && Option28Selected && Option27Selected || Option29Selected && Option28Selected && Option26Selected || Option29Selected && Option28Selected && Option20Selected || Option28Selected && Option27Selected && Option26Selected || Option28Selected && Option27Selected && Option20Selected || Option30Selected && Option29Selected || Option30Selected && Option28Selected || Option30Selected && Option27Selected || Option30Selected && Option26Selected || Option30Selected && Option29Selected || Option29Selected && Option28Selected || Option29Selected && Option27Selected || Option29Selected && Option26Selected || Option29Selected && Option20Selected || Option28Selected && Option27Selected || Option28Selected && Option26Selected || Option28Selected && Option20Selected || Option27Selected && Option26Selected || Option27Selected && Option20Selected || Option26Selected && Option20Selected || Option30Selected || Option29Selected || Option28Selected || Option27Selected || Option26Selected || Option25Selected)
+        {
+            <li>><a href="https://www.nhs.uk/conditions/heat-exhaustion-heatstroke/">Heat exhaustion and heatstroke</a></li>
+        }
+        @if (Option20Selected && Option21Selected && Option22Selected || Option20Selected && Option21Selected || Option21Selected && Option22Selected || Option20Selected && Option22Selected || Option21Selected || Option22Selected || Option20Selected)
+        {
+            <li>><a href="https://www.nhs.uk/conditions/hypothermia/">Hypothermia</a></li>
+        }
+    </ul>
+}
+@code{
+    private bool Option1Selected { get; set; }
+    private bool Option2Selected { get; set; }
+    private bool Option3Selected { get; set; }
+    private bool Option4Selected { get; set; }
+    private bool Option5Selected { get; set; }
+    private bool Option6Selected { get; set; }
+    private bool Option7Selected { get; set; }
+    private bool Option8Selected { get; set; }
+    private bool Option9Selected { get; set; }
+    private bool Option10Selected { get; set; }
+    private bool Option11Selected { get; set; }
+    private bool Option12Selected { get; set; }
+    private bool Option13Selected { get; set; }
+    private bool Option14Selected { get; set; }
+    private bool Option15Selected { get; set; }
+    private bool Option16Selected { get; set; }
+    private bool Option17Selected { get; set; }
+    private bool Option18Selected { get; set; }
+    private bool Option19Selected { get; set; }
+    private bool Option20Selected { get; set; }
+    private bool Option21Selected { get; set; }
+    private bool Option22Selected { get; set; }
+    private bool Option23Selected { get; set; }
+    private bool Option24Selected { get; set; }
+    private bool Option25Selected { get; set; }
+    private bool Option26Selected { get; set; }
+    private bool Option27Selected { get; set; }
+    private bool Option28Selected { get; set; }
+    private bool Option29Selected { get; set; }
+    private bool Option30Selected { get; set; }
+
+    private bool Option1Disabled => Option1Selected && SelectionCount >= 3;
+    private bool Option2Disabled => Option2Selected && SelectionCount >= 3;
+    private bool Option3Disabled => Option3Selected && SelectionCount >= 3;
+    private bool Option4Disabled => Option4Selected && SelectionCount >= 3;
+    private bool Option5Disabled => Option5Selected && SelectionCount >= 3;
+    private bool Option6Disabled => Option6Selected && SelectionCount >= 3;
+    private bool Option7Disabled => Option7Selected && SelectionCount >= 3;
+    private bool Option8Disabled => Option8Selected && SelectionCount >= 3;
+    private bool Option9Disabled => Option9Selected && SelectionCount >= 3;
+    private bool Option10Disabled => Option10Selected && SelectionCount >= 3;
+    private bool Option11Disabled => Option11Selected && SelectionCount >= 3;
+    private bool Option12Disabled => Option12Selected && SelectionCount >= 3;
+    private bool Option13Disabled => Option13Selected && SelectionCount >= 3;
+    private bool Option14Disabled => Option14Selected && SelectionCount >= 3;
+    private bool Option15Disabled => Option15Selected && SelectionCount >= 3;
+    private bool Option16Disabled => Option16Selected && SelectionCount >= 3;
+    private bool Option17Disabled => Option17Selected && SelectionCount >= 3;
+    private bool Option18Disabled => Option18Selected && SelectionCount >= 3;
+    private bool Option19Disabled => Option19Selected && SelectionCount >= 3;
+    private bool Option20Disabled => Option20Selected && SelectionCount >= 3;
+    private bool Option21Disabled => Option21Selected && SelectionCount >= 3;
+    private bool Option22Disabled => Option22Selected && SelectionCount >= 3;
+    private bool Option23Disabled => Option23Selected && SelectionCount >= 3;
+    private bool Option24Disabled => Option24Selected && SelectionCount >= 3;
+    private bool Option25Disabled => Option25Selected && SelectionCount >= 3;
+    private bool Option26Disabled => Option26Selected && SelectionCount >= 3;
+    private bool Option27Disabled => Option27Selected && SelectionCount >= 3;
+    private bool Option28Disabled => Option28Selected && SelectionCount >= 3;
+    private bool Option29Disabled => Option29Selected && SelectionCount >= 3;
+    private bool Option30Disabled => Option30Selected && SelectionCount >= 3;
+
+    private int SelectionCount => (Option1Selected ? 1 : 0) + (Option2Selected ? 1 : 0) + (Option3Selected ? 1 : 0) + (Option4Selected ? 1 : 0) + (Option5Selected ? 1 : 0) + (Option6Selected ? 1 : 0) + (Option7Selected ? 1 : 0) + (Option8Selected ? 1 : 0) + (Option9Selected ? 1 : 0) + (Option10Selected ? 1 : 0) + (Option11Selected ? 1 : 0) + (Option12Selected ? 1 : 0) + (Option13Selected ? 1 : 0) + (Option14Selected ? 1 : 0) + (Option15Selected ? 1 : 0) + (Option16Selected ? 1 : 0) + (Option17Selected ? 1 : 0) + (Option18Selected ? 1 : 0) + (Option19Selected ? 1 : 0) + (Option20Selected ? 1 : 0) + (Option21Selected ? 1 : 0) + (Option22Selected ? 1 : 0) + (Option23Selected ? 1 : 0) + (Option24Selected ? 1 : 0) + (Option25Selected ? 1 : 0) + (Option26Selected ? 1 : 0) + (Option27Selected ? 1 : 0) + (Option28Selected ? 1 : 0) + (Option29Selected ? 1 : 0) + (Option30Selected ? 1 : 0);
+
+    private bool SelectionLimitReached => SelectionCount >= 3;
+
+    private bool SelectionsShown { get; set; }
+
+    private void ShowDiagnosis()
+    {
+        SelectionsShown = true;
+    }
+}

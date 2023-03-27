@@ -7,19 +7,7 @@
     <base href="/" />
     <link href="css/app.css" rel="stylesheet" />
     <link href="manifest.json" rel="manifest" />
-    <!--<script src="_framework/blazor.server.js"></script>
-        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAzMARz7VvuaLFicMMCjnY7jRMUVTrCZK4&v=3"></script>
-        <script>
-            function initialize() {
-                var latlng = new google.maps.LatLng(51.39758, 0.54202);
-                var options = {
-                    zoom: 14, center: latlng,
-                    mapTypeId: google.maps.MapTypeId.ROADMAP
-                };
-                var map = new google.maps.Map(document.getElementById
-                    ("map"), options);
-            }
-        </script> -->
+ 
     <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
 
     <link rel="stylesheet" type="text/css" href="./css/Style.css" />
@@ -31,16 +19,6 @@
 <body>
     <div id="app">Loading...</div>
     <!--The div element for the map -->
-    <div id="map"></div>
-    <!--
-      The `defer` attribute causes the callback to execute after the full HTML
-      document has been parsed. For non-blocking uses, avoiding race conditions,
-      and consistent behavior across browsers, consider loading using Promises
-      with https://www.npmjs.com/package/@googlemaps/js-api-loader.
-      -->
- 
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAzMARz7VvuaLFicMMCjnY7jRMUVTrCZK4&v=3&libraries=places&callback=initMap&v=weekly"
-            defer></script>
 
     <div id="blazor-error-ui">
         An unhandled error has occurred.
@@ -48,7 +26,7 @@
         <a class="dismiss">🗙</a>
     </div>
     <script src="_framework/blazor.webassembly.js"></script>
-    <script src="Initialize.js"></script>
+    <!--<script src="Initialize.js"></script>-->
     <script>navigator.serviceWorker.register('service-worker.js');</script>
 </body>
 

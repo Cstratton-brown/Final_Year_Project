@@ -2,9 +2,17 @@
 // prompted by your browser. If you see the error "The Geolocation service
 // failed.", it means you probably did not give permission for the browser to
 // locate you.
+let markers = [];
 let map, infoWindow;
 
 function initMap() {
+    document
+        .getElementById("show-markers")
+        .addEventListener("click", showMarkers);
+    document
+        .getElementById("hide-markers")
+        .addEventListener("click", hideMarkers);
+    document
 
     const styles = {
         default: [],
@@ -28,10 +36,11 @@ function initMap() {
 
     map = new google.maps.Map(document.getElementById("map"), {
         center: { lat: -34.397, lng: 150.644 },
-        zoom: 13,
-        styles: styles["hide"]
-    });
-    infoWindow = new google.maps.InfoWindow();
+        zoom: 15,
+        styles: styles["hide"],
+    }),
+        infoWindow = new google.maps.InfoWindow();
+
 
     const locationButton = document.createElement("button");
 
@@ -43,7 +52,7 @@ function initMap() {
                         lat: position.coords.latitude,
                         lng: position.coords.longitude,
                     };
-
+                    
                     infoWindow.setPosition(pos);
                     // The marker, positioned at user
 
@@ -54,7 +63,7 @@ function initMap() {
                     infoWindow.setContent("You are Here");
                     infoWindow.open(map);
                     map.setCenter(pos);
-
+                    map.setZoom(15);
                     
                     var request = {
                         location: pos,
@@ -72,13 +81,31 @@ function initMap() {
                     handleLocationError(true, infoWindow, map.getCenter());
                 }
             );
-        } else {
+        } else
+        {
             // Browser doesn't support Geolocation
             handleLocationError(false, infoWindow, map.getCenter());
-    }
+        }
 
  
 }
+
+function hideMarkers() {
+    setMapOnAll(null);
+}
+
+// Shows any markers currently in the array.
+function showMarkers() {
+    setMapOnAll(map);
+}
+
+function setMapOnAll(map) {
+    for (let i = 0; i < markers.length; i++) {
+        markers[i].setMap(map);
+    }
+}
+
+
 
 function handleLocationError(browserHasGeolocation, infoWindow, pos) {
     infoWindow.setPosition(pos);
@@ -89,22 +116,25 @@ function handleLocationError(browserHasGeolocation, infoWindow, pos) {
     );
     infoWindow.open(map);
 }
+
+
 function createMarker(place) {
 
-    new google.maps.Marker({
+    const marker = new google.maps.Marker({
         position: place.geometry.location,
-        map: map
+        map: map,        
     });
+    markers.push(marker);
 }
 
 function callback(results, status) {
     if (status == google.maps.places.PlacesServiceStatus.OK) {
         for (var i = 0; i < results.length; i++) {
             createMarker(results[i]);
-            infoWindow.setContent("Medical");
         }
     }
 }
+
 
 window.initMap = initMap;
 console.log("initialize Java");
