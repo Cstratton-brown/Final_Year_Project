@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>FinalYearProject</title>
+    <base href="/" />
+    <link href="css/app.css" rel="stylesheet" />
+    <link href="manifest.json" rel="manifest" />
+ 
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+
+    <link rel="stylesheet" type="text/css" href="./css/Style.css" />
+    <script type="module" src="./Initialize.js"></script>
+    <!-- If you add any scoped CSS files, uncomment the following to load them
+    <link href="FinalYearProject.Client.styles.css" rel="stylesheet" /> -->
+</head>
+
+<body>
+    <div id="app">Loading...</div>
+    <!--The div element for the map -->
+
+    <div id="blazor-error-ui">
+        An unhandled error has occurred.
+        <a href="" class="reload">Reload</a>
+        <a class="dismiss">🗙</a>
+    </div>
+    <script src="_framework/blazor.webassembly.js"></script>
+    <!--<script src="Initialize.js"></script>-->
+    <script>navigator.serviceWorker.register('service-worker.js');</script>
+</body>
+
+</html>

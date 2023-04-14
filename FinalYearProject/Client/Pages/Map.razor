@@ -1,0 +1,31 @@
+﻿@page "/map"
+@using System.Runtime.InteropServices.JavaScript;
+@inject IJSRuntime JS
+
+
+<head>
+    <h1>Display nearby Medical Services</h1>
+</head>
+<body>
+    <p1>Press hide markers to hide the markers over nearby medical locations, press show markers to display a marker over medical locations that may not have rendered.</p1>
+    <div id="floating-panel">
+      <input id="hide-markers" type="button" value="Hide Markers" />
+      <input id="show-markers" type="button" value="Show Markers" />
+
+    </div>
+    <div id="map"></div>
+
+
+<script suppress-error="BL9992" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAzMARz7VvuaLFicMMCjnY7jRMUVTrCZK4&v=3&libraries=places&callback=initMap&v=weekly"
+        defer></script> 
+        <!--script suppress-error="BL9992" prevents the error that shows up from calling a script in the html section of a blazor page instead of index.html-->
+</body>
+
+@code {
+    protected override async Task OnInitializedAsync()  //on page initialize import the javascript code of the specified name from the specified location
+    {
+        await JSHost.ImportAsync("Initialize","../wwwroot/Initialize.js");
+
+    }
+
+}
