@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "BAtYWFH33xAxuFnZ1qx4aMEIUTJGueTjUMnV2ZQnL18=",
+  "Hash": "dbI6Z/gAsSvh423z8s7WHW8UduJfOor4amM7fzY+6V4=",
   "Source": "FinalYearProject.Server",
   "BasePath": "_content/FinalYearProject.Server",
   "Mode": "Default",
@@ -7186,6 +7186,23 @@
       "OriginalItemSpec": "wwwroot\\css\\app.css"
     },
     {
+      "Identity": "C:\\Users\\Charles\\source\\repos\\Cstratton-brown\\Final_Year_Project\\FinalYearProject\\Client\\wwwroot\\css\\logo.png",
+      "SourceId": "FinalYearProject.Client",
+      "SourceType": "Project",
+      "ContentRoot": "C:\\Users\\Charles\\source\\repos\\Cstratton-brown\\Final_Year_Project\\FinalYearProject\\Client\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "css/logo.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\logo.png"
+    },
+    {
       "Identity": "C:\\Users\\Charles\\source\\repos\\Cstratton-brown\\Final_Year_Project\\FinalYearProject\\Client\\wwwroot\\css\\Style.css",
       "SourceId": "FinalYearProject.Client",
       "SourceType": "Project",
@@ -7201,23 +7218,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\Style.css"
-    },
-    {
-      "Identity": "C:\\Users\\Charles\\source\\repos\\Cstratton-brown\\Final_Year_Project\\FinalYearProject\\Client\\wwwroot\\icon-512.png",
-      "SourceId": "FinalYearProject.Client",
-      "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Charles\\source\\repos\\Cstratton-brown\\Final_Year_Project\\FinalYearProject\\Client\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "icon-512.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\icon-512.png"
     },
     {
       "Identity": "C:\\Users\\Charles\\source\\repos\\Cstratton-brown\\Final_Year_Project\\FinalYearProject\\Client\\wwwroot\\index.html",

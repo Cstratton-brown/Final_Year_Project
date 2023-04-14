@@ -29,8 +29,8 @@
       "PackagePath": "staticwebassets\\css\\app.css"
     },
     {
-      "Id": "C:\\Users\\Charles\\source\\repos\\Cstratton-brown\\Final_Year_Project\\FinalYearProject\\Client\\wwwroot\\icon-512.png",
-      "PackagePath": "staticwebassets\\icon-512.png"
+      "Id": "C:\\Users\\Charles\\source\\repos\\Cstratton-brown\\Final_Year_Project\\FinalYearProject\\Client\\wwwroot\\css\\logo.png",
+      "PackagePath": "staticwebassets\\css\\logo.png"
     },
     {
       "Id": "C:\\Users\\Charles\\source\\repos\\Cstratton-brown\\Final_Year_Project\\FinalYearProject\\Client\\wwwroot\\index.html",

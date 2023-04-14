@@ -204,14 +204,14 @@
       "netstandard.dll": "sha256-p32h5P3QmHJ\/FGoeE6m7f5g\/8ng2PSPGZktHyMadvIs=",
       "System.Private.CoreLib.dll": "sha256-6MwQcyKbqBsoZYOcD9fQJ4iKcn1qMmWRWVEkU2LLCb0=",
       "FinalYearProject.Shared.dll": "sha256-l6xQaV7VrsR\/NtcSm5os8N2W2i9awkeszRiD\/cmyjIk=",
-      "FinalYearProject.Client.dll": "sha256-Y3cp4YLhkrqhP34s4M7jtjaZX\/y6OffKUhzVgKZw3Wo="
+      "FinalYearProject.Client.dll": "sha256-KN3YUd34OeKi8c3Jc89d1+Nr2IPIIpj0i6Xjnghb4Sc="
     },
     "extensions": null,
     "lazyAssembly": null,
     "libraryInitializers": null,
     "pdb": {
       "FinalYearProject.Shared.pdb": "sha256-SIRdETgdhiEzSOYKgELaVvDGvTtm\/nEiRIdRmGyBM5M=",
-      "FinalYearProject.Client.pdb": "sha256-iRotNX38ka+l63Zx+alv9WE3loJptIjKZ7Lmr+e2Sq8="
+      "FinalYearProject.Client.pdb": "sha256-oonDQIfc3WAWPpCqIhWpvHAJKRiaEp7Lp0QrMTFdeS4="
     },
     "runtime": {
       "dotnet.7.0.2.e8gxhnrq4n.js": "sha256-4mh03qTse0uNR+dQ6ydExm4jJXph0RE8zGNCtF0jiNA=",

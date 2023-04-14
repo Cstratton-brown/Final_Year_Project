@@ -8,6 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Include="wwwroot\css\logo.png" />
     <None Include="wwwroot\Initialize.js" />
   </ItemGroup>
 

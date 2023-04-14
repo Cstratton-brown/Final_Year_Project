@@ -1,11 +1,13 @@
 ﻿@page "/"
 @inject NavigationManager NavigationManager
 
-<h1>Diagnosis App</h1>
-<button @onclick="() => NavigateToDiagnosis()">Symptom Diagnosis</button>
+<img src="/css/logo.png" align="left" style="width:64px;height:64px;"><!--HTML code to add a logo and position the title next to it-->
+<h1>Diagnosis App</h1><!--HMTL code for a title-->
+<button @onclick="() => NavigateToDiagnosis()">Symptom Diagnosis</button><!--HTML code to add buttons with on click event handlers-->
 <button @onclick="() => NavigateToMap()">Nearby Medical Locations</button>
 
 @code {
+    //If statements that will change the page to the destination when a button is pressed
     private void NavigateToDiagnosis() => NavigationManager.NavigateTo("/diagnosis", true);
 
     private void NavigateToMap() => NavigationManager.NavigateTo("/map", true);

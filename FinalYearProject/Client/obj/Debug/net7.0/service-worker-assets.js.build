@@ -5,19 +5,19 @@
       "url": "css\/app.css"
     },
     {
-      "hash": "sha256-tOWnifKheXpaneCtxyatBb598ZUHY8019Y2m0SJcw9Y=",
-      "url": "css\/Style.css"
+      "hash": "sha256-PrEaP1i8DwjUmfkdpJ8Wrw6OBdlAGJcjHJNqPQHOKF8=",
+      "url": "css\/logo.png"
     },
     {
-      "hash": "sha256-oEo6d+KqX5fjxTiZk\/w9NB3Mi0+ycS5yLwCKwr4IkbA=",
-      "url": "icon-512.png"
+      "hash": "sha256-tOWnifKheXpaneCtxyatBb598ZUHY8019Y2m0SJcw9Y=",
+      "url": "css\/Style.css"
     },
     {
       "hash": "sha256-f0K2SoSXsngyzkSMz6wl+lmHDhb62hWH3rlEis\/btXE=",
       "url": "index.html"
     },
     {
-      "hash": "sha256-vPwMgl+m3c2Zp5E\/4oej6HHljzrpa\/BUGLGmVnwi\/H8=",
+      "hash": "sha256-GFj1BkwFVp4aEjKP4hHzpYk4IaJp2BXpQSsISO9gYwg=",
       "url": "Initialize.js"
     },
     {
@@ -845,11 +845,11 @@
       "url": "_framework\/FinalYearProject.Shared.pdb"
     },
     {
-      "hash": "sha256-7PvvyfH\/zUk3LuM8LNQ5B9pr5Vu58vHHd88RGeymNck=",
+      "hash": "sha256-MwYjSRVNkW1l8Cbl5QkYvHo38Vu+M+kJfPnX0uzjOug=",
       "url": "_framework\/FinalYearProject.Client.dll"
     },
     {
-      "hash": "sha256-hx2nvOZqc+6Vw8Tzw2ibfMOUgMspsJS1RzsZH3ZD7Tw=",
+      "hash": "sha256-FA7NZV1whoErEGzgmvBWUXYLw6NbMBtguhT6ikAKwlY=",
       "url": "_framework\/FinalYearProject.Client.pdb"
     },
     {
@@ -857,7 +857,7 @@
       "url": "_framework\/blazor.webassembly.js"
     },
     {
-      "hash": "sha256-kuaWGPRP\/5udWqm12RqwlRMtXVsir16apPvf7kL+dz4=",
+      "hash": "sha256-6XK4CJ3A2VmMS30PNX\/E\/WM7HVEZ3FXG9W2uCKDMWAw=",
       "url": "_framework\/blazor.boot.json"
     },
     {
@@ -865,5 +865,5 @@
       "url": "_content\/Darnton.Blazor.DeviceInterop\/js\/Geolocation.js"
     }
   ],
-  "version": "u9qBehO\/"
+  "version": "hsZjlcoI"
 };
